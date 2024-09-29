@@ -145,7 +145,7 @@ const Manager = () => {
               <tbody className=" bg-green-200">
                 {dataArray.map((item) => {
                   return (
-                    <tr>
+                    <tr key={item.id}>
                       <td className="py-1 border border-white text-center min-w-32">
                         <div className=" flex justify-center gap-2 items-center">
                           <a
